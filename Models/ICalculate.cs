@@ -8,7 +8,6 @@ namespace LogisticService.Models
 {
     internal interface ICalculate
     {
-        double Calculate(double x, double y, double z, double p);
-
+        double Calculate(CalculationModel model);
     }
 }
